@@ -144,10 +144,27 @@ img {
     .col{
         width: 100vw; 
     }
+    .lessons .col{
+        width: 100vw;
+    }
+    .steps .col{
+        width: 100vw;
+    }
  } 
  
  @media screen and (max-width : 768px){
     .container{
         width: 100%;
     }
+ }
+ @media screen and (min-width: 769px) and (max-width: 1160px){
+    .steps, .lessons, .why-us{
+        overflow-x: hidden;
+        
+    }
+    .container{
+        width: 100vw;
+    }
+
+    
  }
