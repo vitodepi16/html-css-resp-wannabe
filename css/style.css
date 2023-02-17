@@ -135,23 +135,13 @@ img {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100vw;   
-
-    }
-    .card{
-        width: 100vw;
+        align-items: center;
     }
     .container{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         width: 100%;   
         padding: 0;
     }
     .col{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         width: 100vw; 
     }
  } 
